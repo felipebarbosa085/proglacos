@@ -8,12 +8,9 @@ exibição na tela:
 3 elevado à 15 = 14348907
 OBS: Tente fazer em uma classe utilizando Math.pow() e em outra classe sem utilizar Math.pow()"""
 
-("""A""")
+"""B"""
 
-
-import math
-num = int(input("Qual o numero a ser inserido?"))
-contador = 1
-while contador <= 15:
-    print(f"{num}*{contador}={math.pow(num,contador):.0f}")
-    contador = contador + 1
+pont = 0
+while (pont <= 15):
+    print(f"3 elevado à {pont} = {3 ** pont}")
+    pont = pont + 1
